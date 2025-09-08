@@ -74,6 +74,9 @@ static ArvGvLegacyInfos arv_gc_port_legacy_infos[] = {
    { .vendor_selection = "EVK",                                 .model_selection = "HELIOS"},
    { .vendor_selection = "AT_Automation_Technology_GmbH",       .model_selection = "C6_X_GigE"},
    { .vendor_selection = "Xenics",                              .model_selection = "Wildcat"},
+   
+   // 添加 大华 某个型号的坑爹相机, 未使用标准协议, 特殊处理.
+   { .vendor_selection = "IC",                              	.model_selection = "IC"},
 };
 
 typedef struct {
